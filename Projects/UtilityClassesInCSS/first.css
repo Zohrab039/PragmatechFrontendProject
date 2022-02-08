@@ -1,0 +1,146 @@
+#first {
+    display: flex;
+}
+
+/* Common styles */
+.btn {
+    display: flex;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* primary button style start*/
+
+.btn-primary {
+    border: 1px solid purple;
+    border-radius: 3px;
+    background: purple;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: rgb(94, 1, 94);
+}
+
+/* primary button style end */
+
+/* secondary button style start */
+
+.btn-secondary {
+    background: #d9dbdc;
+    border: 1px solid #d9dbdc;
+    border-radius: 3px;
+}
+
+.btn-secondary:hover {
+    background: #c5c6c7;
+}
+
+/* secondary button style end */
+
+/* success button style start*/
+
+.btn-success {
+    background: #00c689;
+    border: 1px solid #00c689;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #01a775;
+}
+
+/* success button style end */
+
+/* danger button style start*/
+
+.btn-danger {
+    background: #fc7242;
+    border: 1px solid #fc7242;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #fb561c;
+}
+
+/* danger button style end */
+
+/* warning button style start*/
+
+.btn-warning {
+    background: #ffc100;
+    border: 1px solid #ffc100;
+    border-radius: 3px;
+}
+
+.btn-warning:hover {
+    background: #d9a400;
+    border: 1px solid #d9a400;
+}
+
+/* warning button style end */
+
+/* info button style start*/
+
+.btn-info {
+    background: #4d13d1;
+    border: 1px solid #4d13d1;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn-info:hover {
+    background: #4010ae;
+}
+
+/* info button style end */
+
+/* light button style start */
+
+.btn-light{
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 3px;
+}
+
+.btn-light:hover{
+    background: #e2e6ea;
+}
+
+/* light button style end */
+
+/* dark button style start */
+
+.btn-dark{
+    background: #4f4a60;
+    border: 1px solid #4f4a60;
+    border-radius: 3px;
+    color: white
+}
+
+.btn-dark:hover{
+    background: #3d394a;
+}
+
+/* dark button style end */
+
+/* link button style start */
+
+.btn-link{
+    background: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #007bff;
+}
+
+.btn-link:hover{
+    text-decoration: underline;
+}
+/* link button style end */
