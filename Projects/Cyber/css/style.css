@@ -75,3 +75,10 @@
 .slider-item-content a {
     margin: var(--space-3x) 0px;
 }
+
+/* Button styles */
+
+.btn:hover {
+    background-color: var(--hover-color);
+    transition: 0.4s ease;
+}
