@@ -104,13 +104,13 @@
 
 /* light button style start */
 
-.btn-light{
+.btn-light {
     background: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 3px;
 }
 
-.btn-light:hover{
+.btn-light:hover {
     background: #e2e6ea;
 }
 
@@ -118,14 +118,14 @@
 
 /* dark button style start */
 
-.btn-dark{
+.btn-dark {
     background: #4f4a60;
     border: 1px solid #4f4a60;
     border-radius: 3px;
     color: white
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
     background: #3d394a;
 }
 
@@ -133,14 +133,15 @@
 
 /* link button style start */
 
-.btn-link{
+.btn-link {
     background: white;
     border: 1px solid white;
     border-radius: 3px;
     color: #007bff;
 }
 
-.btn-link:hover{
+.btn-link:hover {
     text-decoration: underline;
 }
+
 /* link button style end */
