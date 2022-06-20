@@ -105,7 +105,6 @@
 
 #### Completed
 
-
 # Research (Araşdırma)
 
 - [Hello World](https://javascript.info/hello-world) article's questions: 
