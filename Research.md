@@ -294,4 +294,3 @@
             ```js
             document.getElementById('classId').click = functionName; // onclick Event-inin JavaScriptdə yazılma qaydası bu formadadır.
             ```
-            
