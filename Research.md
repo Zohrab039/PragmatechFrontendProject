@@ -106,7 +106,6 @@
 #### Completed
 
 # Research (Araşdırma)
-
 - [Hello World](https://javascript.info/hello-world) article's questions: 
     - In which form can Javascript code be written? (Javascript kodları necə formada yazıla bilər?)
         - JavaScript codes can be written different forms. (JavaScript kodları fərqli formalarda yazılar.)
