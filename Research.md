@@ -78,7 +78,6 @@
 #### Completed
 
 # Research (Araşdırma)
-
 - What is the difference between interpreter and compiler language? (Interpreter və compiler dillər arasındakı fərqlər nələrdir?)
     - Interpreter translates just one statement of the program at a time into machine code. Compiler scans the entire program and translates the whole of it into machine code at once. (Interpreter eyni anda proqramın yalnız bir ifadəsini maşın koduna çevirir. Compiler bütün proqramı skan edir və bütün proqramı bir anda maşın koduna çevirir)
 - What is the difference between variable and data types? (Variable (dəyişən) ilə data types (məlumat növləri) arasındakı fərqlər nələrdir?)
