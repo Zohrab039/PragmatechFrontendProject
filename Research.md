@@ -34,7 +34,7 @@
     - Of course, you can also use JavaScript to create browser games. These are a great way for beginning developers to practice their JavaScript skills. (Əlbəttə ki, brauzer oyunları yaratmaq üçün JavaScript-dən də istifadə edə bilərsiniz. Bunlar başlanğıc developerlar üçün JavaScript bacarıqlarını tətbiq etmək üçün əla yoldur.)
 
 
-- Write a brief explanation of the following programming terms (Aşağıdakı proqramlaşdırma terminlərinin qısa acıqlamasını yazın)
+- Write a brief explanation of the following programming terms: (Aşağıdakı proqramlaşdırma terminlərinin qısa acıqlamasını yazın:)
     - Compilers
         - When executing (running), the compiler first parses (or analyzes) all of the language statements syntactically one after the other and then, in one or more successive stages or "passes", builds the output code, making sure that statements that refer to other statements are referred to correctly in the final code. As and example Java, C, C# and etc.(İcra edərkən (işləyərkən) compiler əvvəlcə bütün dil ifadələrini bir-birinin ardınca sintaktik olaraq təhlil edir (və ya təhlil edir), sonra bir və ya bir neçə ardıcıl mərhələdə və ya "keçmə" ilə çıxış kodunu qurur, buna istinad edən ifadələrin digər ifadələr yekun kodda düzgün istinad edilir. Bunlara misal olaraq Java, C, C# və sair.)
     - Interpreters
