@@ -1,0 +1,48 @@
+.services {
+    display: flex;
+    margin: 10% auto;
+}
+
+.service-item {
+    position: relative;
+    width: 360px;
+    height: 385px;
+    border: 1px solid var(--main-color);
+    border-radius: 40px 0;
+    transition: all .3s ease;
+    background: var(--main-color);
+}
+
+.service-item:hover {
+    border-radius: 0 40px;
+}
+
+.service-item i {
+    margin-top: 5%;
+    /* margin-bottom: 50px; */
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    line-height: 2.2;
+    color: var(--btn-color);
+    background-color: #fff;
+}
+
+h2 {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}

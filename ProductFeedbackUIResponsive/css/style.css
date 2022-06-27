@@ -1,0 +1,1197 @@
+.feedback-btn {
+  position: absolute;
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  width: 158px;
+  height: 44px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background: #AD1FEA;
+  color: #F2F4FE;
+  cursor: pointer;
+}
+
+.feedback-btn:active {
+  background: #C75AF6;
+}
+
+.btn {
+  width: 77px;
+  height: 30px;
+  border-radius: 10px;
+  color: #4661E6;
+  background: #F2F4FF;
+  border: none;
+}
+
+.btn-enhancement {
+  width: 111px;
+  height: 30px;
+  border-radius: 10px;
+  color: #4661E6;
+  background: #F2F4FF;
+  border: none;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex, .row, #roadmap .container .row .roadmap-header .roadmap-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.roadmap-header {
+  width: 1110px;
+  height: 113px;
+  margin: 78px auto;
+  border-radius: 10px;
+  background: #373F68;
+}
+
+.planned-component-item-h {
+  position: absolute;
+  width: 350px;
+  height: 6px;
+  border-radius: 5px 5px 0px 0px;
+  background: #F49F85;
+}
+
+.planned-component-item-h-2 {
+  position: absolute;
+  width: 350px;
+  height: 6px;
+  border-radius: 5px 5px 0px 0px;
+  background: #F49F85;
+}
+
+.planned-component-item {
+  width: 350px;
+  height: 272px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.planned-component-item-2 {
+  width: 350px;
+  height: 272px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.planned-dot {
+  margin-left: 32px;
+  margin-top: 10px;
+}
+
+.p-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #F49F85;
+}
+
+.tag-btn {
+  width: 69px;
+  height: 40px;
+  background: #F2F4FE;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.progress-component-item-2 {
+  margin-top: -8px;
+}
+
+.progress-component-item-3 {
+  margin-top: 24px;
+}
+
+.live-component-item-h {
+  width: 350px;
+  height: 6px;
+  background: #62BCFA;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.live-component-item {
+  width: 350px;
+  height: 232px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.l-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #62BCFA;
+}
+
+.zero {
+  opacity: .5;
+}
+
+.flex, .row, #roadmap .container .row .roadmap-header .roadmap-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-between, .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-wrap, .row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  position: relative;
+  width: calc((100%/12)*1) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-2 {
+  position: relative;
+  width: calc((100%/12)*2) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-3 {
+  position: relative;
+  width: calc((100%/12)*3) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-4 {
+  position: relative;
+  width: calc((100%/12)*4) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-5 {
+  position: relative;
+  width: calc((100%/12)*5) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-6 {
+  position: relative;
+  width: calc((100%/12)*6) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-7 {
+  position: relative;
+  width: calc((100%/12)*7) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-8 {
+  position: relative;
+  width: calc((100%/12)*8) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-9 {
+  position: relative;
+  width: calc((100%/12)*9) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-10 {
+  position: relative;
+  width: calc((100%/12)*10) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-11 {
+  position: relative;
+  width: calc((100%/12)*11) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.col-12 {
+  position: relative;
+  width: calc((100%/12)*12) !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .col-xs-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-xs-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .col-sm-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-sm-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .col-md-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-md-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+  .col-lg-1 {
+    position: relative;
+    width: calc((100%/12)*1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-2 {
+    position: relative;
+    width: calc((100%/12)*2) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-3 {
+    position: relative;
+    width: calc((100%/12)*3) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-4 {
+    position: relative;
+    width: calc((100%/12)*4) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-5 {
+    position: relative;
+    width: calc((100%/12)*5) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-6 {
+    position: relative;
+    width: calc((100%/12)*6) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-7 {
+    position: relative;
+    width: calc((100%/12)*7) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-8 {
+    position: relative;
+    width: calc((100%/12)*8) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-9 {
+    position: relative;
+    width: calc((100%/12)*9) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-10 {
+    position: relative;
+    width: calc((100%/12)*10) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-11 {
+    position: relative;
+    width: calc((100%/12)*11) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  .col-lg-12 {
+    position: relative;
+    width: calc((100%/12)*12) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+#roadmap .container .row .roadmap-header {
+  position: relative;
+}
+
+#roadmap .container .row .roadmap-header .roadmap-item i {
+  position: absolute;
+  top: 30px;
+  left: 32.33px;
+  color: #FFFFFF;
+  width: 8px;
+  height: 4px;
+}
+
+#roadmap .container .row .roadmap-header .roadmap-item a {
+  position: absolute;
+  top: 28px;
+  left: 52px;
+  font-family: Jost;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+#roadmap .container .row .roadmap-header .roadmap-item a:active {
+  text-decoration: underline;
+}
+
+#roadmap .container .row .roadmap-header .feedback-btn {
+  top: 35px;
+  left: 82%;
+  /* left: 909px; */
+}
+
+#roadmap .container .row .roadmap-header .roadmap-header-item {
+  position: absolute;
+  top: calc(50% - 35px/2 + 12px);
+  left: 32px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.333333px;
+  color: #FFFFFF;
+}
+
+#roadmap .container .row .roadmap-components {
+  position: relative;
+  margin-left: 45px;
+  margin-top: -32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#roadmap .container .row .roadmap-components .planned-component {
+  font-family: Jost;
+}
+
+#roadmap .container .row .roadmap-components .planned-component span {
+  color: #647196;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-header-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item {
+  margin-top: 32px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .planned-dot {
+  padding-top: 38px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .planned-dot span {
+  height: 23px;
+  font-size: 16px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: -8px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  margin-left: 32px;
+  margin-top: 8px;
+  color: #3A4374;
+  cursor: pointer;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item h5:active {
+  color: #4661E6;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item p {
+  font-family: Jost;
+  color: #647196;
+  margin-top: 4px;
+  margin-left: 32px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item button {
+  margin-left: 31px;
+  margin-top: 16px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  padding-left: 31px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn {
+  cursor: pointer;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn:hover {
+  background: #CFD7FF;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn:active {
+  background: #4661E6;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn i {
+  color: #4661E6;
+  margin-top: 11px;
+  width: 8px;
+  height: 4px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn i:active {
+  color: #FFFFFF;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn span {
+  margin-left: 9.5px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .tag-btn span:active {
+  color: #FFFFFF;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .comment-item {
+  margin-top: 10px;
+  padding-right: 32px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .comment-item i {
+  color: #CDD2EE;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item .tag-comment .comment-item span {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.222222px;
+  color: #3A4374;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item-h-2 {
+  margin-top: 24px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item-2 {
+  margin-top: 24px;
+}
+
+#roadmap .container .row .roadmap-components .planned-component .planned-component-item-2 .planned-dot {
+  padding-top: 38px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component {
+  font-family: Jost;
+  margin-left: 30px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component span {
+  color: #647196;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-header-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item-h {
+  background: #AD1FEA;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item button {
+  margin-left: 31px;
+  margin-top: 16px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  padding-left: 31px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment .tag-btn i {
+  color: #4661E6;
+  margin-top: 11px;
+  width: 8px;
+  height: 4px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment .tag-btn span {
+  margin-left: 9.5px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment .comment-item {
+  margin-top: 10px;
+  padding-right: 32px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment .comment-item i {
+  color: #CDD2EE;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .tag-comment .comment-item span {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.222222px;
+  color: #3A4374;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item {
+  margin-top: 32px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item .planned-dot {
+  padding-top: 38px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item .planned-dot .p-dot {
+  background: #AD1FEA;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item .planned-dot span {
+  height: 23px;
+  font-size: 16px;
+  line-height: 23px;
+  margin-left: 16px;
+  margin-top: -8px;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  margin-left: 32px;
+  margin-top: 8px;
+  color: #3A4374;
+  cursor: pointer;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item h5:active {
+  color: #4661E6;
+}
+
+#roadmap .container .row .roadmap-components .progress-component .progress-component-item .planned-component-item p {
+  font-family: Jost;
+  color: #647196;
+  margin-top: 4px;
+  margin-left: 32px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .live-component {
+  font-family: Jost;
+  margin-left: 30px;
+}
+
+#roadmap .container .row .roadmap-components .live-component span {
+  color: #647196;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-header-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item-h {
+  margin-top: 32px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item {
+  margin-top: 32px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .live-dot {
+  margin-left: 32px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .live-dot span {
+  margin-top: -8px;
+  margin-left: 16px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  margin-left: 32px;
+  margin-top: 8px;
+  color: #3A4374;
+  cursor: pointer;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item h5:active {
+  color: #4661E6;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item p {
+  font-family: Jost;
+  color: #647196;
+  margin-top: 4px;
+  margin-left: 32px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item button {
+  margin-top: 16px;
+  margin-left: 31px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  padding-left: 31px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn {
+  cursor: pointer;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn:hover {
+  background: #CFD7FF;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn:active {
+  background: #4661E6;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn i {
+  color: #4661E6;
+  margin-top: 11px;
+  width: 8px;
+  height: 4px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn i:active {
+  color: #FFFFFF;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn span {
+  margin-left: 9.5px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .tag-btn span:active {
+  color: #FFFFFF;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .comment-item {
+  margin-top: 10px;
+  padding-right: 32px;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .comment-item i {
+  color: #CDD2EE;
+}
+
+#roadmap .container .row .roadmap-components .live-component .live-component-item .tag-comment .comment-item span {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.222222px;
+  color: #3A4374;
+  margin-left: 8px;
+  margin-top: 5px;
+}

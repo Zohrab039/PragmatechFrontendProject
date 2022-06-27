@@ -1,0 +1,88 @@
+.navbar_brand_logo {
+  /* border: 1px solid red; */
+}
+
+.navbar_brand_nav {
+  /* border: 1px solid red; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_brand_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_brand_nav ul li {
+  margin: 0px 10px;
+}
+
+.navbar_user {
+  /* border: 1px solid red; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_user button {
+  background: #343a40;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border-radius: 20px;
+}
+
+.stat-container {
+  /* border: 1px solid rgb(54, 4, 4); */
+  width: 1140px;
+  margin: 0px auto;
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* background: gray; */
+}
+
+.stat-item {
+  /* border: 1px solid rgb(21, 46, 160); */
+  width: calc(100%/4 - 10px);
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.stat-item div {
+  /* background: red; */
+  border: 1px solid #00427a;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 31px;
+  font-weight: 700;
+  color: #00427a;
+}

@@ -1,0 +1,190 @@
+.first-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* btn-color start */
+
+/* primary button style start*/
+
+.btn-primary {
+    border: var(--btn-color-border) purple;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--primary-btn-hover);
+}
+
+/* primary button style end */
+
+/* secondary button style start */
+
+.btn-secondary {
+    border: var(--btn-color-border) #d9dbdc;
+}
+
+.btn-secondary:hover {
+    background: var(--secondary-btn-hover);
+}
+
+/* secondary button style end */
+
+/* success button style start*/
+
+.btn-success {
+
+    border: var(--btn-color-border) #00c689;
+    color: white;
+}
+
+.btn-success:hover {
+    background: var(--success-btn-hover)
+}
+
+/* success button style end */
+
+/* danger button style start*/
+
+.btn-danger {
+
+    border: var(--btn-color-border) #fc7242;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: var(--danger-btn-hover);
+}
+
+/* danger button style end */
+
+/* warning button style start*/
+
+.btn-warning {
+
+    border: var(--btn-color-border) #ffc100;
+}
+
+.btn-warning:hover {
+    background: var(--warning-btn-hover);
+    border: var(--btn-color-border) #d9a400;
+}
+
+/* warning button style end */
+
+/* info button style start*/
+
+.btn-info {
+
+    border: var(--btn-color-border) #4d13d1;
+    color: white;
+}
+
+.btn-info:hover {
+    background: var(--info-btn-hover);
+}
+
+/* info button style end */
+
+/* light button style start */
+
+.btn-light {
+
+    border: var(--light-btn-color);
+}
+
+.btn-light:hover {
+    background: var(--light-btn-hover);
+}
+
+/* light button style end */
+
+/* dark button style start */
+
+.btn-dark {
+
+    border: var(--btn-color-border) #4f4a60;
+
+    color: white
+}
+
+.btn-dark:hover {
+    background: var(--dark-btn-hover);
+}
+
+/* dark button style end */
+
+/* link button style start */
+
+.btn-link {
+
+    border: var(--btn-color-border) white;
+    color: var(--link-btn-letter-color);
+}
+
+.btn-link:hover {
+    color: var(--link-btn-hover);
+    text-decoration: underline;
+}
+
+/* link button style end */
+
+/* btn-color end */
+
+/* btn-rounded start */
+
+.btn-rounded-primary {
+    border: 1px solid var(--primary-btn-color);
+}
+
+.btn-rounded-primary:hover {
+    background: var(--primary-btn-hover);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-rounded-secondary {
+    border: 1px solid var(--secondary-btn-color);
+}
+
+.btn-rounded-secondary:hover {
+    background: var(--secondary-btn-hover);
+}
+
+.btn-rounded-success {
+    border: 1px solid var(--success-btn-color);
+}
+
+.btn-rounded-success:hover {
+    background: var(--success-btn-hover);
+}
+
+.btn-rounded-danger {
+    border: none;
+}
+
+.btn-rounded-danger:hover {
+    background: var(--danger-btn-hover);
+}
+
+.btn-rounded-warning:hover {
+    background: var(--warning-btn-hover);
+}
+
+.btn-rounded-info:hover {
+    background: var(--info-btn-hover);
+}
+
+.btn-rounded-light:hover {
+    background: var(--light-btn-hover);
+}
+
+.btn-rounded-dark:hover {
+    background: var(--dark-btn-hover);
+}
+
+.btn-rounded-link:hover {
+    color: var(--link-btn-hover);
+    text-decoration: underline;
+}
+
+/* btn-rounded end */

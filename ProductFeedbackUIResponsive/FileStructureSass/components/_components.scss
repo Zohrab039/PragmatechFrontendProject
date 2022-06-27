@@ -1,0 +1,96 @@
+@import '../common/colors';
+
+.flex {
+    display: flex;
+}
+
+.roadmap-header {
+    width: 1110px;
+    height: 113px;
+    margin: 78px auto;
+    border-radius: 10px;
+    background: $roadmap-bc;
+}
+
+.planned-component-item-h {
+    position: absolute;
+    width: 350px;
+    height: 6px;
+    border-radius: 5px 5px 0px 0px;
+    background: #F49F85;
+}
+
+.planned-component-item-h-2 {
+    position: absolute;
+    width: 350px;
+    height: 6px;
+    border-radius: 5px 5px 0px 0px;
+    background: #F49F85;
+}
+
+.planned-component-item {
+    width: 350px;
+    height: 272px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.planned-component-item-2 {
+    width: 350px;
+    height: 272px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.planned-dot {
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.p-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $planned-bc
+}
+
+.tag-btn {
+    width: 69px;
+    height: 40px;
+    background: $feedback-btn-color;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.progress-component-item-2 {
+    margin-top: -8px;
+}
+
+.progress-component-item-3 {
+    margin-top: 24px;
+}
+
+.live-component-item-h {
+    width: 350px;
+    height: 6px;
+    background: $live-bc;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.live-component-item {
+    width: 350px;
+    height: 232px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.l-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $live-bc;
+}
+
+.zero {
+    opacity: .5;
+}

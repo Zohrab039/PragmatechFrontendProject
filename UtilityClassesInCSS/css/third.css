@@ -1,0 +1,91 @@
+/* btn-size start */
+
+.btn-colorless {
+    color: var(--secondary-btn-color);
+    background-color: white;
+    border: 1px solid var(--secondary-btn-color);
+}
+
+.btn-lg {
+    width: 135px;
+    height: 50px;
+    margin: 10px;
+}
+
+.btn-colorless-size .btn-lg:hover {
+    background-color: var(--secondary-btn-color);
+    color: black;
+}
+
+.btn-md {
+    width: 95px;
+    height: 45px;
+    margin: 10px;
+}
+
+.btn-colorless-size .btn-md:hover {
+    background-color: var(--secondary-btn-color);
+    color: black;
+}
+
+.btn-sm {
+    width: 70px;
+    height: 30px;
+}
+
+.btn-colorless-size .btn-sm:hover {
+    background-color: var(--secondary-btn-color);
+    color: black;
+}
+
+.btn-colorful-size .btn-lg:hover {
+    background: var(--danger-btn-hover);
+}
+
+.btn-colorful-size .btn-md:hover {
+    background: var(--success-btn-hover);
+}
+
+.btn-colorful-size .btn-sm:hover {
+    background: var(--primary-btn-hover);
+}
+
+/* btn-size end */
+
+/* btn-block start */
+
+.btn-block-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-block {
+    width: 265px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.btn-block i {
+    margin-left: 5px;
+}
+
+.btn-block-user i {
+    margin-right: 5px;
+}
+
+.btn-block-bars:hover {
+    background: var(--info-btn-hover);
+}
+
+.btn-block-dark:hover {
+    background: var(--dark-btn-hover);
+}
+
+.btn-block-user:hover {
+    background: var(--primary-btn-hover);
+}
+.btn-block-secondary:hover{
+    background: var(--secondary-btn-hover);
+}
+
+/* btn-block-end */

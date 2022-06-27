@@ -1,0 +1,38 @@
+@import './colors';
+
+.feedback-btn{
+    position: absolute;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background: $progress-bc;
+    color: $feedback-btn-color;
+    cursor: pointer;
+    &:active{
+        background: $feedback-btn-bc-a;
+    }
+}
+
+.btn{
+    width: 77px;
+    height: 30px;
+    border-radius: 10px;
+    color: $btn-color;
+    background: $btn-bc;
+    border: none;
+}
+
+.btn-enhancement{
+    width: 111px;
+    height: 30px;
+    border-radius: 10px;
+    color: $btn-color;
+    background: $btn-bc;
+    border: none;
+}

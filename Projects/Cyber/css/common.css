@@ -1,0 +1,130 @@
+/* Layihə boyunca butun sectionlarda ortaq olaraq istifade olunacaq classlar */
+
+
+/* #271151 */
+
+
+/* #7744D9 */
+
+:root {
+    --main-color: #271151;
+    --secondary-color: #7744D9;
+    --white-color: white;
+    --hover-color: #e83e8c;
+    --space-x: 5px;
+    --space-2x: 10px;
+    --space-3x: 15px;
+    --space-4x: 20px;
+    --space-5x: 25px;
+    --space-6x: 30px;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-around {
+    justify-content: space-around !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.align-items-start {
+    align-items: flex-start !important;
+}
+
+.align-items-end {
+    align-items: flex-end !important;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block !important;
+}
+
+
+/* Button colors */
+
+.btn-bg-main {
+    background: var(--main-color);
+    color: var(--white-color)
+}
+
+.btn-bg-secondary {
+    background: var(--secondary-color);
+    color: var(--white-color)
+}
+
+
+/* Button size */
+
+.btn-small {
+    padding: var(--space-x) var(--space-2x) !important;
+}
+
+.btn-medium {
+    padding: var(--space-2x) var(--space-4x) !important;
+}
+
+.btn-large {
+    padding: var(--space-3x) var(--space-6x) !important;
+}
+
+
+/* Button radius */
+
+.btn-radius-small {
+    border-radius: var(--space-x)
+}
+
+.btn-radius-medium {
+    border-radius: var(--space-2x)
+}
+
+.btn-radius-large {
+    border-radius: var(--space-3x)
+}
+
+.btn-slide {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid var(--white-color);
+    display: inline-block;
+    color: var(--white-color);
+    border-radius: 50%;
+}

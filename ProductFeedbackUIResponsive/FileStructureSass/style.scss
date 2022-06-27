@@ -1,0 +1,442 @@
+@import './common/reset';
+@import './common/colors';
+@import './common/buttons';
+@import './components/components';
+@import './responsive.scss';
+
+#roadmap {
+    .container {
+        .row {
+            .roadmap-header {
+                position: relative;
+
+                .roadmap-item {
+                    @extend .flex;
+
+                    i {
+                        position: absolute;
+                        top: 30px;
+                        left: 32.33px;
+                        color: #FFFFFF;
+                        width: 8px;
+                        height: 4px;
+                    }
+
+                    a {
+                        position: absolute;
+                        top: 28px;
+                        left: 52px;
+                        font-family: Jost;
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-decoration: none;
+
+                        &:active {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .feedback-btn {
+                    top: 35px;
+                    left: 82%;
+                    /* left: 909px; */
+                }
+
+                .roadmap-header-item {
+                    position: absolute;
+                    top: calc(50% - 35px/2 + 12px);
+                    left: 32px;
+                    font-family: Jost;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 35px;
+                    letter-spacing: -0.333333px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .row {
+            .roadmap-components {
+                position: relative;
+                margin-left: 45px;
+                margin-top: -32px;
+                display: flex;
+
+                .planned-component {
+                    font-family: Jost;
+
+                    span {
+                        color: $roadmap-span-color;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+
+                    .planned-header-item {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: -0.25px;
+                        color: $roadmap-component-header;
+                    }
+
+                    .planned-component-item {
+                        margin-top: 32px;
+
+                        .planned-dot {
+                            padding-top: 38px;
+
+                            span {
+                                height: 23px;
+                                font-size: 16px;
+                                line-height: 23px;
+                                margin-left: 16px;
+                                margin-top: -8px;
+                            }
+                        }
+
+                        h5 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 26px;
+                            letter-spacing: -0.25px;
+                            margin-left: 32px;
+                            margin-top: 8px;
+                            color: $roadmap-component-header;
+                            cursor: pointer;
+                                &:active{
+                                    color: $btn-color;
+                                }
+                        }
+
+                        p {
+                            font-family: Jost;
+                            color: $roadmap-span-color;
+                            margin-top: 4px;
+                            margin-left: 32px;
+                            font-size: 16px;
+                            line-height: 23px;
+                        }
+
+                        button {
+                            margin-left: 31px;
+                            margin-top: 16px;
+                        }
+
+                        .tag-comment {
+                            justify-content: space-between;
+                            margin-top: 20px;
+                            padding-left: 31px;
+
+                            .tag-btn {
+                                cursor: pointer;
+                                &:hover{
+                                    background: $tag-btn-bc;
+                                }
+                                &:active{
+                                    background: $btn-color;
+                                }
+                                i {
+                                    color: $btn-color;
+                                    margin-top: 11px;
+                                    width: 8px;
+                                    height: 4px;
+                                    &:active{
+                                        color: #FFFFFF;
+                                    }
+                                }
+
+                                span {
+                                    margin-left: 9.5px;
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                    &:active{
+                                        color: #FFFFFF;
+                                    }
+                                }
+                            }
+
+                            .comment-item {
+                                margin-top: 10px;
+                                padding-right: 32px;
+
+                                i {
+                                    color: $comment-icon-color;
+                                }
+
+                                span {
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    color: $roadmap-component-header;
+                                    margin-left: 8px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .planned-component-item-h-2 {
+                        margin-top: 24px;
+                    }
+
+                    .planned-component-item-2 {
+                        margin-top: 24px;
+
+                        .planned-dot {
+                            padding-top: 38px;
+                        }
+                    }
+                }
+
+                .progress-component {
+                    font-family: Jost;
+                    margin-left: 30px;
+
+                    span {
+                        color: $roadmap-span-color;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+
+                    .progress-header-item {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: -0.25px;
+                        color: $roadmap-component-header;
+                    }
+
+                    .progress-component-item {
+                        .planned-component-item-h {
+                            background: $progress-bc;
+                        }
+
+                        button {
+                            margin-left: 31px;
+                            margin-top: 16px;
+                        }
+
+                        .tag-comment {
+                            justify-content: space-between;
+                            margin-top: 20px;
+                            padding-left: 31px;
+
+                            .tag-btn {
+                                i {
+                                    color: $btn-color;
+                                    margin-top: 11px;
+                                    width: 8px;
+                                    height: 4px;
+                                }
+
+                                span {
+                                    margin-left: 9.5px;
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                }
+                            }
+
+                            .comment-item {
+                                margin-top: 10px;
+                                padding-right: 32px;
+
+                                i {
+                                    color: $comment-icon-color;
+                                }
+
+                                span {
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    color: $roadmap-component-header;
+                                    margin-left: 8px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+
+                        .planned-component-item {
+                            margin-top: 32px;
+
+                            .planned-dot {
+                                padding-top: 38px;
+
+                                .p-dot {
+                                    background: $progress-bc;
+                                }
+
+                                span {
+                                    height: 23px;
+                                    font-size: 16px;
+                                    line-height: 23px;
+                                    margin-left: 16px;
+                                    margin-top: -8px;
+                                }
+                            }
+
+                            h5 {
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 26px;
+                                letter-spacing: -0.25px;
+                                margin-left: 32px;
+                                margin-top: 8px;
+                                color: $roadmap-component-header;
+                                cursor: pointer;
+                                &:active{
+                                    color: $btn-color;
+                                }
+                            }
+
+                            p {
+                                font-family: Jost;
+                                color: $roadmap-span-color;
+                                margin-top: 4px;
+                                margin-left: 32px;
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                    }
+                }
+                .live-component{
+                    font-family: Jost;
+                    margin-left: 30px;
+
+                    span {
+                        color: $roadmap-span-color;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                    .live-header-item{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: -0.25px;
+                        color: $roadmap-component-header;
+                    }
+                    .live-component-item-h{
+                        margin-top: 32px;
+                    }
+                    .live-component-item{
+                        margin-top: 32px;
+                        .live-dot{
+                            margin-left: 32px;
+                            span{
+                                margin-top: -8px;
+                                margin-left: 16px;
+                            }
+                        }
+                        h5 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 26px;
+                            letter-spacing: -0.25px;
+                            margin-left: 32px;
+                            margin-top: 8px;
+                            color: $roadmap-component-header;
+                            cursor: pointer;
+                            &:active{
+                                color: $btn-color;
+                            }
+                        }
+
+                        p {
+                            font-family: Jost;
+                            color: $roadmap-span-color;
+                            margin-top: 4px;
+                            margin-left: 32px;
+                            font-size: 16px;
+                            line-height: 23px;
+                        }
+                        button{
+                            margin-top: 16px;
+                            margin-left: 31px;
+                        }
+                        .tag-comment {
+                            justify-content: space-between;
+                            margin-top: 20px;
+                            padding-left: 31px;
+
+                            .tag-btn {
+                                cursor: pointer;
+                                &:hover{
+                                    background: $tag-btn-bc;
+                                }
+                                &:active{
+                                    background: $btn-color;
+                                }
+                                i {
+                                    color: $btn-color;
+                                    margin-top: 11px;
+                                    width: 8px;
+                                    height: 4px;
+                                    &:active{
+                                        color: #FFFFFF;
+                                    }
+                                }
+
+                                span {
+                                    margin-left: 9.5px;
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                    &:active{
+                                        color: #FFFFFF;
+                                    }
+                                }
+                            }
+
+                            .comment-item {
+                                margin-top: 10px;
+                                padding-right: 32px;
+
+                                i {
+                                    color: $comment-icon-color;
+                                }
+
+                                span {
+                                    font-family: Jost;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    color: $roadmap-component-header;
+                                    margin-left: 8px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

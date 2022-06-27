@@ -1,0 +1,205 @@
+#second {
+    margin-top: 100px;
+    height: 200px;
+}
+
+.second-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* btn-outline start */
+.btn-outline-primary {
+    border: 1px solid var(--primary-btn-color);
+    color: var(--primary-btn-color);
+    background-color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-btn-color);
+    color: white;
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--secondary-btn-color);
+    background-color: white;
+    color: var(--secondary-btn-color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary-btn-color);
+    color: black
+}
+
+.btn-outline-success {
+    border: 1px solid var(--success-btn-color);
+    background-color: white;
+    color: var(--success-btn-color);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--success-btn-color);
+    color: white;
+}
+
+.btn-outline-danger {
+    border: 1px solid var(--danger-btn-color);
+    background-color: white;
+    color: var(--danger-btn-color);
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--danger-btn-color);
+    color: white;
+}
+
+.btn-outline-warning {
+    border: 1px solid var(--warning-btn-color);
+    background-color: white;
+    color: var(--warning-btn-color);
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--warning-btn-color);
+    color: black;
+}
+
+.btn-outline-info {
+    border: 1px solid var(--info-btn-color);
+    background-color: white;
+    color: var(--info-btn-color);
+}
+
+.btn-outline-info:hover {
+    background-color: var(--info-btn-color);
+    color: white;
+}
+
+.btn-outline-light {
+    border: 1px solid var(--light-btn-color);
+    background-color: white;
+    color: var(--light-btn-color);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--light-btn-color);
+    color: black;
+}
+
+.btn-outline-dark {
+    border: 1px solid var(--dark-btn-color);
+    background-color: white;
+    color: var(--dark-btn-color);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--dark-btn-color);
+    color: white;
+}
+
+.btn-outline-link {
+    background-color: white;
+    border: none;
+    color: var(--link-btn-letter-color);
+}
+
+.btn-outline-link:hover {
+    color: var(--link-btn-hover);
+    text-decoration: underline;
+}
+
+/* btn-outline end */
+
+/* btn-inverse start */
+
+.btn-inverse-primary {
+    color: var(--primary-btn-letter-color);
+    background-color: var(--primary-btn-inverse-background-color);
+}
+
+.btn-inverse-primary:hover {
+    color: white;
+    background-color: var(--primary-btn-color);
+}
+
+.btn-inverse-secondary {
+    color: var(--secondary-btn-letter-color);
+    background-color: var(--secondary-btn-inverse-background-color);
+}
+
+.btn-inverse-secondary:hover {
+    color: white;
+    background-color: var(--secondary-btn-color);
+}
+
+.btn-inverse-success {
+    color: var(--success-btn-letter-color);
+    background-color: var(--success-btn-inverse-background-color);
+}
+
+.btn-inverse-success:hover {
+    color: white;
+    background-color: var(--success-btn-color);
+}
+
+.btn-inverse-danger {
+    color: var(--danger-btn-letter-color);
+    background-color: var(--danger-btn-inverse-background-color);
+}
+
+.btn-inverse-danger:hover {
+    color: white;
+    background-color: var(--danger-btn-color);
+}
+
+.btn-inverse-warning {
+    color: var(--warning-btn-letter-color);
+    background-color: var(--warning-btn-inverse-background-color);
+}
+
+.btn-inverse-warning:hover {
+    color: white;
+    background-color: var(--warning-btn-color);
+}
+
+.btn-inverse-info {
+    color: var(--info-btn-letter-color);
+    background-color: var(--info-btn-inverse-background-color);
+}
+
+.btn-inverse-info:hover {
+    color: white;
+    background-color: var(--info-btn-color);
+}
+
+.btn-inverse-light {
+    color: black;
+    background-color: white;
+}
+
+.btn-inverse-light:hover {
+    color: white;
+    background-color: var(--light-btn-inverse-background-color);
+}
+
+.btn-inverse-dark {
+    color: var(--dark-btn-letter-color);
+    background-color: var(--dark-btn-inverse-background-color);
+}
+
+.btn-inverse-dark:hover {
+    color: white;
+    background-color: var(--dark-btn-color);
+}
+
+.btn-inverse-link {
+    color: var(--link-btn-letter-color);
+    background-color: white;
+}
+
+.btn-inverse-link:hover {
+    color: var(--link-btn-hover);
+    text-decoration: underline;
+}
+
+/* btn-inverse end */

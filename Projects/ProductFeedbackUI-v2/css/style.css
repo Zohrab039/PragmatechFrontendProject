@@ -1,0 +1,429 @@
+.main-btns, .button-1, .button-2, .button-3, .button-4 {
+  position: absolute;
+  width: 158px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.number {
+  font-family: Jost;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: right;
+  color: #647196;
+}
+
+.dot, .planned, #suggestions .mentor .roadmap .planned, #suggestions .mentor .roadmap .progress {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 33px;
+}
+
+.progress-dot {
+  width: 8px;
+  height: 8px;
+  background: #AD1FEA;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.button-1 {
+  background: #AD1FEA;
+}
+
+.button-1:hover {
+  background: #C75AF6;
+}
+
+.button-2 {
+  background: #4661E6;
+}
+
+.button-2:hover {
+  background: #7C91F9;
+}
+
+.button-3 {
+  background: #3A4374;
+}
+
+.button-3:hover {
+  background: #656EA3;
+}
+
+.button-4 {
+  background: #D73737;
+}
+
+.button-4:hover {
+  background: #E98888;
+}
+
+.btn-all {
+  margin-top: 24px;
+  margin-left: 24px !important;
+}
+
+.btn-feature {
+  width: 77px !important;
+  margin-left: 24px !important;
+  margin-top: 10px;
+}
+
+.btn-enhancement {
+  width: 111px !important;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.btn-height {
+  width: 56px !important;
+}
+
+.btn-bug {
+  margin-top: 10px;
+  margin-left: 10px !important;
+}
+
+.btn-view {
+  text-decoration: underline;
+  background: none;
+  border: none;
+  font-family: Jost;
+  font-weight: 600;
+  color: #4661E6;
+}
+
+.btn-view:active {
+  color: #8397F8;
+}
+
+.board {
+  position: absolute;
+  width: 255px;
+  height: 137px;
+  border-radius: 10px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+}
+
+.suggestion-board {
+  width: 825px;
+  height: 72px;
+  border-radius: 10px;
+  background: #373F68;
+}
+
+.roadmap {
+  position: absolute;
+  height: 166px;
+  width: 255px;
+  left: 90px;
+  top: 62%;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+.roadmap-header {
+  margin-top: 19px;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3A4374;
+}
+
+.planned-header {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 16px;
+  color: #647196;
+  margin-left: 25px;
+  margin-top: -4px;
+}
+
+.int-element {
+  /* position: absolute; */
+  width: 40px;
+  height: 53px;
+  border-radius: 10px;
+  background: #F2F4FF;
+}
+
+.int-element:hover {
+  background: #CFD7FF;
+}
+
+.int-element:active {
+  background: #4661E6;
+}
+
+.int-element-2 {
+  /* position: absolute; */
+  width: 48px;
+  /* margin-top: 24px; */
+  height: 30px;
+  border-radius: 10px;
+  background: #F2F4FF;
+  border: none;
+  color: #4661E6;
+}
+
+.int-element-2:hover {
+  background: #CFD7FF;
+}
+
+.int-element-2:active {
+  color: #FFFFFF;
+  background: #4661E6;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#suggestions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#suggestions .mentor .board {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+#suggestions .mentor .board .f-mentor {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #FFFFFF;
+  line-height: 29px;
+  left: 10%;
+  top: 46%;
+}
+
+#suggestions .mentor .board .f-board {
+  position: absolute;
+  font-family: Jost;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 500;
+  opacity: .8;
+  left: 10%;
+  top: 70%;
+}
+
+#suggestions .mentor .buttons {
+  position: absolute;
+  height: 166px;
+  width: 255px;
+  left: 90px;
+  top: 214px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+#suggestions .mentor .roadmap {
+  position: absolute;
+  height: 166px;
+  width: 255px;
+  left: 90px;
+  top: 62%;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+#suggestions .mentor .roadmap .roadmap-header {
+  margin-top: 19px;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3A4374;
+}
+
+#suggestions .mentor .roadmap button {
+  margin-top: 15px;
+}
+
+#suggestions .mentor .roadmap .planned {
+  background: #F49F85;
+}
+
+#suggestions .mentor .roadmap .planned span {
+  margin-left: 92px;
+  margin-top: -8px;
+}
+
+#suggestions .mentor .roadmap .progress {
+  background: #AD1FEA;
+  margin-left: -182px;
+}
+
+#suggestions .mentor .roadmap .progress .progress-header {
+  margin-top: 10px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 16px;
+  color: #647196;
+  margin-left: 25px;
+  margin-top: -4px;
+  line-height: 23px;
+}
+
+#suggestions .mentor .roadmap .progress h4 {
+  margin-left: -10px !important;
+  line-height: 22px !important;
+}

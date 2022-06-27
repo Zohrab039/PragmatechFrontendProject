@@ -1,0 +1,87 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: calc((100%/12)*1);
+}
+
+.col-2 {
+    width: calc((100%/12)*2);
+}
+
+.col-3 {
+    width: calc((100%/12)*3);
+}
+
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-5 {
+    width: calc((100%/12)*5);
+}
+
+.col-6 {
+    width: calc((100%/12)*6);
+}
+
+.col-7 {
+    width: calc((100%/12)*7);
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+
+.col-9 {
+    width: calc((100%/12)*9);
+}
+
+.col-10 {
+    width: calc((100%/12)*10);
+}
+
+.col-11 {
+    width: calc((100%/12)*12);
+}
+
+.col-12 {
+    width: calc((100%/12)*12);
+}
+
+:root {
+    --text-color: #262626;
+    --span-color: #000000;
+    --border-color: #ebe9eb;
+    --on-sale-color: #f34723;
+    --on-sale-text-color: #ffffff;
+    --icon-color: #ebb5ac;
+    --icon-color-colorless: #bfbfbf;
+    --margin-0-5x: 5px;
+    --margin-x: 10px;
+    --margin-1-5x: 15px;
+    --margin-2x: 20px;
+    --margin-2-5x: 25px;
+    --margin-3x: 30px;
+}
+
+.border-top {
+    border-top: 1px solid;
+    /* position: absolute; */
+}
+
+.icon-colorless {
+    color: var(--icon-color-colorless);
+}
+
+.text-hover:hover {
+    color: var(--icon-color);
+    cursor: pointer;
+}

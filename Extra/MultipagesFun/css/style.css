@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+.about h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 50px;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.about h6{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxes{
+    margin-top: 5%;
+}
+.boxes ul{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border: 1px solid gray;
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.btn-correct{
+    border: 1px solid gray;
+    background-color: green;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.box1-style{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 50px;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.box-btn{
+    display: flex;
+    justify-content: center;
+}
+.pointer{
+    cursor: pointer;
+}

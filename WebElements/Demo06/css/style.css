@@ -1,0 +1,51 @@
+body {
+    background-color: #edf4f3;
+}
+
+.services {
+    display: flex;
+    margin: 10% auto;
+}
+
+.service-item {
+    position: relative;
+    width: 360px;
+    height: 410px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+.service-item i {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    line-height: 2.3;
+    color: var(--main-color);
+}
+
+h2 {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #ddd;
+    margin-bottom: 15px;
+    padding: 13px 0;
+    background: linear-gradient(to right, #edf4f3 50%, #ff4343 50%);
+    background-position: left;
+    background-size: 200% 100%;
+    transition: all .3s ease;
+}
+
+.service-item:hover>h2 {
+    color: #fff;
+    background-position: right;
+    transition: all .3s ease;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--p-color);
+}

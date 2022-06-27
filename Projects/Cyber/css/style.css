@@ -1,0 +1,102 @@
+/* General classes of the project */
+
+
+/* General info styles */
+
+#general-info {
+    background: var(--main-color);
+    padding: var(--space-3x) 0px;
+    color: white;
+}
+
+.gi-contact span {
+    color: white;
+    margin: 0px var(--space-x);
+}
+
+.gi-contact span i {
+    margin-right: var(--space-x);
+}
+
+.gi-social i {
+    margin: 0px var(--space-x);
+}
+
+
+/* Navbar section styles */
+
+#navbar {
+    padding: var(--space-3x) 0px;
+}
+
+.navbar-nav ul li a {
+    padding: 0px var(--space-2x);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+/* Slider section styles */
+
+#slider {
+    position: relative;
+}
+
+.slider-item {
+    height: 800px;
+    /* border: 1px solid red; */
+    background-image: url(../images/slide1-home1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slider-item-content {
+    height: 800px;
+    color: var(--white-color);
+    padding-right: 34%;
+}
+
+.slider-item-content h5 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: var(--space-3x) 0px;
+}
+
+.slider-item-content h1 {
+    font-size: 4em;
+    text-transform: capitalize;
+    margin: var(--space-3x) 0px;
+}
+
+.slider-item-content p {
+    margin: var(--space-3x) 0px;
+    font-size: 1.2em;
+}
+
+.slider-item-content a {
+    margin: var(--space-3x) 0px;
+}
+
+.slider-controls {
+    width: 100%;
+    padding: 0px var(--space-6x);
+    box-sizing: border-box;
+    position: absolute;
+    top: 375px;
+}
+
+.btn-scroll-top {
+    position: fixed;
+    right: var(--space-6x);
+    bottom: var(--space-6x);
+    z-index: 5;
+    border: none !important;
+}
+
+/* Button styles */
+
+.btn:hover {
+    background-color: var(--hover-color);
+    transition: 0.4s ease;
+}

@@ -1,0 +1,35 @@
+@import '../general/colors';
+
+
+.int-element{
+    /* position: absolute; */
+    width: 40px;
+    height: 53px;
+    border-radius: 10px;
+    background: $btn-int-bc;
+    &:hover{
+        background: $btn-int-h;
+    }
+    &:active{
+        background: $btn-int-a;
+    }
+}
+
+.int-element-2{
+    /* position: absolute; */
+    width: 48px;
+    /* margin-top: 24px; */
+    height: 30px;
+    border-radius: 10px;
+    background: $btn-int-bc;
+    border: none;
+    color: $btn-int-a;
+    &:hover{
+        background: $btn-int-h;
+    }
+    &:active{
+        color: #FFFFFF;
+        background: $btn-int-a;
+    }
+}
+

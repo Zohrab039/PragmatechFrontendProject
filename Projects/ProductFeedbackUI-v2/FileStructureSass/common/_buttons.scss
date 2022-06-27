@@ -1,0 +1,77 @@
+@import '../general/colors';
+@import '../general/general';
+
+.button-1 {
+    @extend .main-btns;
+    background: $btn-1-bc;
+
+    &:hover {
+        background: $btn-1-h
+    }
+}
+
+
+.button-2 {
+    @extend .main-btns;
+    background: $btn-2-bc;
+
+    &:hover {
+        background: $btn-2-h;
+    }
+}
+
+.button-3 {
+    @extend .main-btns;
+    background: $btn-3-bc;
+
+    &:hover {
+        background: $btn-3-h;
+    }
+}
+
+.button-4 {
+    @extend .main-btns;
+    background: $btn-4-bc;
+
+    &:hover {
+        background: $btn-4-h;
+    }
+}
+
+.btn-all{
+    margin-top: 24px;
+    margin-left: 24px !important;
+}
+
+.btn-feature{
+    width: 77px !important;
+    margin-left: 24px !important;
+    margin-top: 10px;
+}
+
+.btn-enhancement{
+    width: 111px !important;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.btn-height{
+    width: 56px !important;
+}
+
+.btn-bug{
+    margin-top: 10px;
+    margin-left: 10px !important;
+}
+
+.btn-view{
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font-family: Jost;
+    font-weight: 600;
+    color: $btn-int-a;
+    &:active{
+        color: $btn-int-a-h;
+    }
+}

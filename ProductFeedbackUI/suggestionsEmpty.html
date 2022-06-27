@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/106817c4fc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="suggestions">
+        <div class="mentor">
+            <div class="board">
+                <span class="f-mentor">Frontend Mentor</span>
+                <span class="f-board">Feedback Board</span>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn all main-height">All</button>
+                <button type="button" class="btn ui main-height">UI</button>
+                <button type="button" class="btn ux main-height">UX</button>
+                <button type="button" class="btn enhancement enhancement-height">Enhancement</button>
+                <button type="button" class="btn bug bug-height">Bug</button>
+                <button type="button" class="btn feature feature-height">Feature</button>
+            </div>
+            <div class="roadmap">
+                <div class="road-view">
+                    <h4>Roadmap</h4>
+                    <span><a href="">View</a></span>
+                </div>
+                <div class="planned d-flex">
+                    <div class="plan-dot"></div>
+                    <span>Planned</span>
+                    <span class="number">0</span>
+                </div>
+                <div class="progress d-flex">
+                    <div class="progress-dot"></div>
+                    <span>In-Progress</span>
+                    <span class="number">0</span>
+                </div>
+                <div class="live d-flex">
+                    <div class="live-dot"></div>
+                    <span>Live</span>
+                    <span class="number">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="suggestion-main">
+            <div class="suggestion-sort">
+                <i class="fa-solid fa-gear"></i>
+                <span class="suggestion-item">0 Suggestions</span>
+                <span class="sort">Sort by : </span>
+                <span class="upvotes">Most Upvotes <i class="fa-solid fa-angle-down"></i></span>
+                <div class="add-feedback border-10"><a href="#">+ Add Feedback</a></div>
+            </div>
+            <div class="empty-feedback">
+                <img src="./image/suggestion.png" alt="">
+                <h4 class="empty-header">There is no feedback yet.</h4>
+                <span class="empty-item">Got a suggestion? Found a bug that needs to be squashed? We love hearing about new ideas to improve our app.</span>
+                <div class="add-feedback-empty border-10"><a href="#">+ Add Feedback</a></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+// Hərfə görə ölkə sayının olduğu object return edən funksiya yazın. Nümunə {"A":20,"B":15}

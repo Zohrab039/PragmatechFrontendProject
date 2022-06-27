@@ -1,0 +1,64 @@
+.services {
+    display: flex;
+    margin: 10% auto;
+}
+
+.service-item {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    border: 1px solid var(--main-color);
+    border-radius: 100%;
+    transition: all .3s ease;
+}
+
+.service-item i {
+    margin-top: -18%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    line-height: 2.2;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    opacity: .8;
+}
+
+.service-item:hover>.btn {
+    background-color: var(--btn-hover);
+}
+
+.service-item:hover {
+    background-color: var(--main-color);
+    transition: all .3s ease;
+}
+
+.service-item:hover>h2 {
+    color: #fff;
+    opacity: 1;
+}
+
+.service-item:hover>p {
+    color: #fff;
+    opacity: 1;
+}
+
+.service-item:hover>i {
+    color: var(--main-color);
+}
+
+.service-item:hover>.border-radius {
+    background: #fff;
+}

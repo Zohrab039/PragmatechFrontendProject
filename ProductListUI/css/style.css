@@ -1,0 +1,135 @@
+#latest-collection {
+    margin-top: 70px;
+}
+
+.collection-item {
+    position: relative;
+    padding: 12px;
+    margin: var(--margin-0-5x) 3px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.collection-item:hover {
+    border: 2px solid var(--border-color);
+    box-shadow: 0px 0px 15px 5px var(--border-color);
+}
+
+.collection-img i {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 17px;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 32px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.collection-img i:hover {
+    background-color: var(--icon-color);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.collection-img {
+    position: relative;
+    object-fit: cover;
+}
+
+.collection-img img {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.collection-img img {
+    width: 100%;
+    height: 350px;
+}
+
+.collection-img:hover {
+    display: inline-block;
+    background-image: url(../image/img2.jpg);
+    width: 100%;
+    height: 350px;
+}
+
+.collection-icon {
+    display: flex;
+    color: var(--icon-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text {
+    margin-bottom: var(--margin-x);
+    text-transform: initial;
+    font-size: 15px;
+    opacity: 0.8;
+    color: var(--text-color);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    font-family: sans-serif;
+}
+
+span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color: var(--span-color);
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.old-price {
+    opacity: 0.6;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+.on-sale {
+    position: absolute;
+    border: none;
+    background: var(--on-sale-color);
+    color: var(--on-sale-text-color);
+    text-align: center;
+    z-index: 5;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    width: 40px;
+    height: 20px;
+    bottom: 10px;
+    top: auto;
+    right: 10px;
+}
+.add-cart{
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    width: auto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    padding: 10px 29px;
+    background: var(--icon-color);
+    color: var(--span-color);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    transition: all .2s ease-in-out;
+}
+.add-cart:hover{
+    transition: all .2s ease-in-out;
+    background-color: var(--span-color);
+    color: var(--on-sale-text-color);
+}

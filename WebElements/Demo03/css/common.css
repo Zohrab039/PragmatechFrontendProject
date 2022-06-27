@@ -1,0 +1,79 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: calc((100%/12)*1);
+}
+
+.col-2 {
+    width: calc((100%/12)*2);
+}
+
+.col-3 {
+    width: calc((100%/12)*3);
+}
+
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-5 {
+    width: calc((100%/12)*5);
+}
+
+.col-6 {
+    width: calc((100%/12)*6);
+}
+
+.col-7 {
+    width: calc((100%/12)*7);
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+
+.col-9 {
+    width: calc((100%/12)*9);
+}
+
+.col-10 {
+    width: calc((100%/12)*10);
+}
+
+.col-11 {
+    width: calc((100%/12)*12);
+}
+
+.col-12 {
+    width: calc((100%/12)*12);
+}
+
+:root {
+    --main-color: #c0df19;
+    --background-color: #f4ffb9;
+    --button-color: #a3be10;
+    --p-color: #919191;
+    --space-x: 10px;
+    --space-2x: 20px;
+    --space-3x: 30px;
+    --space-4x: 40px;
+    --space-5x: 50px;
+}
+
+.margin-x {
+    margin: 0px 15px;
+}
+
+.border {
+    width: 360px;
+    height: 330px;
+    border: 1px solid var(--background-color);
+}

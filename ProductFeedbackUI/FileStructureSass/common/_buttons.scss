@@ -1,0 +1,68 @@
+.buttons {
+    height: 166px;
+    width: 255px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.btn {
+    margin-top: 24px;
+    border-radius: 10px;
+    border: none;
+    background: $btn-main-bc
+}
+
+.all {
+    background-color: $btn-all-bc;
+    color: $btn-main-bc;
+    font-weight: 600;
+    margin-left: 24px;
+}
+
+.ui,
+.ux,
+.enhancement,
+.bug,
+.feature {
+    margin-top: 10px;
+    font-weight: 600;
+    color: $btn-all-bc;
+}
+
+.all {
+    margin-left: 24px;
+}
+
+.enhancement {
+    margin-left: 24px;
+}
+
+.bug {
+    margin-left: 10px;
+}
+
+.feature {
+    margin-left: 24px;
+}
+
+.main-height {
+    height: 30px;
+    width: 48px;
+}
+
+.enhancement-height {
+    width: 111px;
+    height: 30px;
+}
+
+.bug-height {
+    width: 56px;
+    height: 30px;
+}
+
+.feature-height {
+    width: 77px;
+    height: 30px;
+}

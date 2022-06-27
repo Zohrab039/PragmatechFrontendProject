@@ -1,0 +1,97 @@
+@import './common/buttons';
+@import './common/components';
+@import './common/forms';
+@import './common/interactive' ;
+@import './general/colors';
+@import './general/reset';
+@import './general/variables';
+
+#suggestions{
+    display: flex;
+    .mentor{
+        .board{
+            margin-left: 90px;
+            margin-top: 50px;
+            .f-mentor{
+                position: absolute;
+                display: flex;
+                font-family: Jost;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: -0.25px;
+                text-align: left;
+                color: #FFFFFF;
+                line-height: 29px;
+                left: 10%;
+                top: 46%;
+            }
+            .f-board{
+                position: absolute;
+                font-family: Jost;
+                font-size: 15px;
+                color: #FFFFFF;
+                font-weight: 500;
+                opacity: .8;
+                left: 10%;
+                top: 70%;
+            }
+        }
+        .buttons{
+            position: absolute;
+            height: 166px;
+            width: 255px;
+            left: 90px;
+            top: 214px;
+            border-radius: 10px;
+            background: #FFFFFF;
+        }
+        .roadmap {
+            position: absolute;
+            height: 166px;
+            width: 255px;
+            left: 90px;
+            top: 62%;
+            border-radius: 10px;
+            background: #FFFFFF;
+            .roadmap-header{
+                margin-top: 19px;
+                font-family: Jost;
+                font-size: 18px;
+                font-weight: 700;
+                color: $btn-3-bc;
+            }
+            button{
+                margin-top: 15px;
+            }
+            .planned{
+                @extend .dot;
+                background: $plan-color;
+                span{
+                    margin-left: 92px;
+                    margin-top: -8px;
+                }
+            }
+            .progress{
+                @extend .dot;
+                background: $progress-color;
+                margin-left: -182px;
+                
+                .progress-header{
+                    margin-top: 10px;
+                    font-family: Jost;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: $number-color;
+                    margin-left: 25px;
+                    margin-top: -4px;
+                    line-height: 23px;
+                }
+                h4{
+                    margin-left: -10px !important;
+                    line-height: 22px !important;
+                }
+            }
+        }
+    }
+}

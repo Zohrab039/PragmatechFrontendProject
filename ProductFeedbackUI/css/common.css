@@ -1,0 +1,157 @@
+body {
+    background: var(--background-color)
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: calc((100%/12)*1);
+}
+
+.col-2 {
+    width: calc((100%/12)*2);
+}
+
+.col-3 {
+    width: calc((100%/12)*3);
+}
+
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-5 {
+    width: calc((100%/12)*5);
+}
+
+.col-6 {
+    width: calc((100%/12)*6);
+}
+
+.col-7 {
+    width: calc((100%/12)*7);
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+
+.col-9 {
+    width: calc((100%/12)*9);
+}
+
+.col-10 {
+    width: calc((100%/12)*10);
+}
+
+.col-11 {
+    width: calc((100%/12)*12);
+}
+
+.col-12 {
+    width: calc((100%/12)*12);
+}
+
+/* bc --> background-color */
+/* tc --> text-color */
+
+:root {
+    --mentor-color: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    --background-color: #F2F2F2;
+    --btn-all-bc: #4661E6;
+    --btn-main-bc: #F2F4FF;
+    --planned-color: #F49F85;
+    --progress-color: #AD1FEA;
+    --live-color: #62BCFA;
+    --roadmap-color: #3A4374;
+    --planned-tc: #647196;
+    --suggestion-sort-bc: #373F68;
+    --suggestion-icon-color: #4661E6;
+    --comment-icon-color: #CDD2EE;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jc-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.border-10 {
+    border-radius: 10px;
+}
+
+.suggestion-icon {
+    color: var(--suggestion-icon-color);
+}
+
+.all {
+    background-color: var(--btn-all-bc);
+    color: var(--btn-main-bc);
+    font-weight: 600;
+    margin-left: 24px;
+}
+
+.ui,
+.ux,
+.enhancement,
+.bug,
+.feature {
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--btn-all-bc);
+}
+
+.all {
+    margin-left: 24px;
+}
+
+.enhancement {
+    margin-left: 24px;
+}
+
+.bug {
+    margin-left: 10px;
+}
+
+.feature {
+    margin-left: 24px;
+}
+
+.main-height {
+    height: 30px;
+    width: 48px;
+}
+
+.enhancement-height {
+    width: 111px;
+    height: 30px;
+}
+
+.bug-height {
+    width: 56px;
+    height: 30px;
+}
+
+.feature-height {
+    width: 77px;
+    height: 30px;
+}
+
+.suggestion-component {
+    position: absolute;
+    width: 825px;
+    height: 151px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
