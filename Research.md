@@ -266,6 +266,7 @@
         let elem = document.querySelector('element')
         let clone = elem.cloneNode(true)
         ```
+
 # Research (Araşdırma)
 
 [Tasks](https://github.com/PragmatechEducation/Pragmatech-Student-Manual/blob/main/Resources/javascriptQuestions.md)
