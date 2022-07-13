@@ -236,7 +236,6 @@
         - Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local. (Hoisting, kodun icrasından əvvəl dəyişənlərin və funksiya bəyannamələrinin əhatə dairəsinin yuxarı hissəsinə köçürüldüyü JavaScript mexanizmidir. İstər-istəməz bu o deməkdir ki, funksiya və dəyişənlərin harada elan olunmasından asılı olmayaraq, əhatə dairəsinin qlobal və ya yerli olmasından asılı olmayaraq, onların əhatə dairəsinin yuxarı hissəsinə köçürülür.)
 
 # Research (Araşdırma)
-
 [Tasks](https://github.com/PragmatechEducation/Pragmatech-Student-Manual/blob/main/Resources/javascriptQuestions.md)
 
 - Question 1
